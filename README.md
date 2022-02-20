@@ -10,15 +10,17 @@ sudo snap install hugo --channel=extended
 ```
 
 ## Theme
-[Clarity](https://github.com/chipzoller/hugo-clarity) | [Document](https://themes.gohugo.io/themes/hugo-clarity/)
+[LoveKana](https://github.com/LYTzeng/LoveKana) | [Document](https://hugoloveit.com/)
 
 ```
 hugo new site yourSiteName
 cd yourSiteName
 git init
-git submodule add https://github.com/chipzoller/hugo-clarity themes/hugo-clarity
+git submodule add https://github.com/LYTzeng/LoveKana themes/LoveKana
 cp -a themes/hugo-clarity/exampleSite/* .
 ```
+
+And then edit `config.toml`.
 
 ## Maybe you'd like to build a pipeline to easily build and deploy ur blog
 - [Building a CI/CD pipeline for Hugo websites](https://aws.amazon.com/tw/blogs/infrastructure-and-automation/building-a-ci-cd-pipeline-for-hugo-websites/)
