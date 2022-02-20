@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://lytzeng.github.io"
 defaultContentLanguage = "en"
 # theme
 # 主题
@@ -9,7 +9,7 @@ theme = "LoveIt"
 title = "Blog O3R"
 
 enableRobotsTXT = true
-# enableGitInfo = true
+enableGitInfo = true
 enableEmoji = true
 
 [frontmatter]
@@ -125,7 +125,7 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/images/profile-pic.jpg"
+          avatarURL = "/images/profile-pic.webp"
           # title shown in home page (HTML format is supported)
           title = "Oscar T."
           # subtitle shown in home page
@@ -240,8 +240,8 @@ enableEmoji = true
     # mobile header mode ("fixed", "normal", "auto")
     # 移动端导航栏模式 ("fixed", "normal", "auto")
     mobileMode = "auto"
-    bg = "/images/header-bg.png"
-    lowbg = "/images/header-bg-lowsrc.png"
+    bg = "/images/header-bg.webp"
+    lowbg = "/images/header-bg-lowsrc.webp"
     # Header title config
     # 页面头部导航栏标题配置
     [params.header.title]
@@ -482,7 +482,7 @@ enableEmoji = true
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = true
-        appId = "mBVjhrJAGxI6vq161LiQRhKH-MdYXbMMI-MdYXbMMI"
+        appId = "mBVjhrJAGxI6vq161LiQRhKH-MdYXbMMI"
         appKey = "78ztEgoRX6GkV1LdNx0pghv8"
         placeholder = ""
         avatar = "mp"
@@ -561,7 +561,7 @@ enableEmoji = true
       # 出版者信息
       [params.page.seo.publisher]
         name = "Oscar Tseng"
-        logoUrl = "/images/profile-pic.jpg"
+        logoUrl = "/images/profile-pic.webp"
 
   # TypeIt config
   # TypeIt 配置
