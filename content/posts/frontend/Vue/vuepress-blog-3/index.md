@@ -4,7 +4,7 @@ lang: zh-TW
 description: VuePress 原本是提供官方文件網站一個產生靜態頁面的框架，因此許多部落格應有的功能都是缺乏的。例如標籤、分類和留言等都需要自己做，因為我想掌控排版和背後的邏輯，所以就寫起來囉。這篇會討論 Components 的應用、標籤（Tags)和分類（Categories)的實做部分。範例程式碼就是直接從這個部落格的原始碼節錄的。
 sidebar: auto
 tags: ["VuePress"]
-category: Frontend
+categories: ["Frontend"]
 title: VuePress 部落格架設與折騰 (三)：Global Computed、標籤與分類功能、Components 的應用
 aliases: ["/posts/frontend/Vue/vuepress-blog-3.html"]
 resources:
