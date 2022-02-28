@@ -1,4 +1,4 @@
-baseURL = "https://lytzeng.github.io"
+baseURL = "https://o3r.moe"
 defaultContentLanguage = "en"
 # theme
 # 主题
@@ -27,7 +27,7 @@ enableEmoji = true
     # default amount of posts in each pages
     paginate = 12
     # [UA-XXXXXXXX-X] google analytics code
-    googleAnalytics = ""
+    googleAnalytics = "G-7DB7MB4VKH"
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
@@ -220,7 +220,7 @@ enableEmoji = true
   defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/dillonzq/LoveIt"
+  gitRepo = "https://github.com/LYTzeng/lytzeng.github.io"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
