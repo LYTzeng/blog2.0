@@ -2,7 +2,7 @@ baseURL = "https://o3r.moe"
 defaultContentLanguage = "en"
 # theme
 # 主题
-theme = "LoveIt"
+theme = "LoveKana"
 
 # website title
 # 网站标题
