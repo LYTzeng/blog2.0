@@ -32,5 +32,5 @@ jobs:
           #   keep_files: true
           user_name: LYTzeng
           user_email: oscar@o3r.moe
-          publish_branch: master
+          publish_branch: blog2.0
           cname: o3r.moe
