@@ -1,3 +1,3 @@
 [submodule "themes/LoveKana"]
 	path = themes/LoveKana
-	url = https://github.com/LYTzeng/LoveKana
+	url = git@github.com:LYTzeng/LoveKana.git

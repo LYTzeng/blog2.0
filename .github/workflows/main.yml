@@ -6,9 +6,9 @@ jobs:
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Add Theme
+        run: git submodule add https://${ secrets.SECRET }:x-oauth-basic@github.com/LYTzeng/LoveKana themes/LoveKana
 
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
