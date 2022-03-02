@@ -9,7 +9,7 @@ jobs:
 
       - name: Add Theme
         run: |
-          git submodule set-url -- themes/LoveKana https://${{ secrets.SECRET }}:x-oauth-basic@github.com/LYTzeng/LoveKana
+          git submodule set-url -- themes/LoveKana https://${{ secrets.SECRET }}@github.com/LYTzeng/LoveKana
           git submodule update --init --recursive
 
       - name: Setup hugo
