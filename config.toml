@@ -204,7 +204,7 @@ enableEmoji = true
         XMPP = ""
         Matrix = ""
         Bilibili = ""
-        Email = ""
+        Email = "oscar@o3r.moe"
         Discord = "697020575989628989"
         RSS = true
         # [languages.en.params.social.Mastodon]
