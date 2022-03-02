@@ -28,7 +28,7 @@ jobs:
         with:
           personal_token: ${{ secrets.SECRET }}
           external_repository: LYTzeng/lytzeng.github.io
-          publish_dir: .
+          publish_dir: ./public
           #   keep_files: true
           user_name: LYTzeng
           user_email: oscar@o3r.moe
