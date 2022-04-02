@@ -68,13 +68,21 @@ enableEmoji = true
         title = ""
         weight = 4
       [[languages.en.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "My Figures"
+        url = "/myFigures/"
+        title = ""
+        weight = 5
+      [[languages.en.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
         url = "https://github.com/LYTzeng"
         title = "GitHub"
-        weight = 5
+        weight = 6
     [languages.en.params]
       # site description
       description = "Blog O3R"
