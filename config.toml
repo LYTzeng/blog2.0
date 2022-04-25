@@ -133,11 +133,13 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/images/profile-pic.webp"
+          avatarURL = "/images/pfp-e8adc8913acf61888314b907b3f03b41.webp"
+          # Avatar tooltip text
+          avatarTooltip = "pfp by 中森 煙 @kemurismoke"
           # title shown in home page (HTML format is supported)
           title = "Oscar T."
           # subtitle shown in home page
-          subtitle = "Nice to meetcha on the Kumo(雲/Cloud) <3"
+          subtitle = "Nice to meetcha on the Kumo <3"
           # whether to use typeit animation for subtitle
           typeit = false
           # whether to show social links
@@ -569,7 +571,7 @@ enableEmoji = true
       # 出版者信息
       [params.page.seo.publisher]
         name = "Oscar Tseng"
-        logoUrl = "/images/profile-pic.webp"
+        logoUrl = "/images/pfp-e8adc8913acf61888314b907b3f03b41.webp"
 
   # TypeIt config
   # TypeIt 配置
