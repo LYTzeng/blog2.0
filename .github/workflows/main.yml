@@ -5,12 +5,10 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Git checkout
-        uses: actions/checkout@v2
-
-      - name: Add Theme
-        run: |
-          git submodule set-url -- themes/LoveKana https://${{ secrets.SECRET }}@github.com/LYTzeng/LoveKana
-          git submodule update --init --recursive
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.SECRET }}
+          submodules: 'recursive'
 
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
